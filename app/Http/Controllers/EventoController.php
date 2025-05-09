@@ -6,6 +6,7 @@ use App\Models\Evento;
 use App\Http\Requests\StoreEventoRequest;
 use App\Http\Requests\UpdateEventoRequest;
 
+
 class EventoController extends Controller
 {
     /**
@@ -13,7 +14,7 @@ class EventoController extends Controller
      */
     public function index()
     {
-        //
+       
     }
 
     /**

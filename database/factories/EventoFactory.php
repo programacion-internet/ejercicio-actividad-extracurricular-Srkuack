@@ -17,7 +17,9 @@ class EventoFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'nombre' => fake()->sentence,
+            'descripcion' => fake()->paragraph,
+            'fecha' => fake()->dateTimeBetween('-1 month', '+2 months'),
         ];
     }
 }
